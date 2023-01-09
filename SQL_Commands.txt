@@ -211,3 +211,11 @@ select sum(case when family is null then 0 else 1 end) from  addressbookservice.
 
 UC12 ER diagram ;
 
+UC13 Retrive quries : 
+
+SELECT * FROM addressbookservice.addressbook;
+use addressbookservice;
+select firstName from addressbook where city = "Tirupati" or state = 'AndhraPradesh'; 
+select count(city),city from addressbook group by city;
+select firstname from addressbook where city = 'Tirupati' order by  firstname asc;
+select friends, count(friends) from addressbook group by friends;
