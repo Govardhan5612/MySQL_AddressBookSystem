@@ -140,3 +140,6 @@ select*from Employee_Payroll;
 insert into Employee_Payroll(Name,salary,startDate,Gender,Phone_Number,Department,Address,BasicPay,Deductions,TaxablePay,IncomeTax,NetPay)
 values('GovardhanReddy','5000','2020-2-05','M','8555','Bridge labz','Chittoor','2500','500','500','500','5000');
 update Employee_Payroll set Department ='CSE' where Employee_id = '1' or Employee_id = '2'or Employee_id = '3' or Employee_id = '4' ;
+
+UC10 Add the terisa details in two ids;
+
